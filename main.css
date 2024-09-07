@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6c00a2, #001152);
+    font-family: 'El Messiri', sans-serif;
+    color: #fff;
+    overflow: hidden;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+input,
+button {
+    font-family: 'El Messiri', sans-serif;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    margin: 10px 0;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #ff805d;
+    box-shadow: 0 0 10px #ff805d;
+}
+
+button {
+    background-color: #ff805d;
+    color: white;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+button:hover {
+    background-color: #ff5630;
+    border: 2px solid #fff;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #ff805d;
+    text-align: center;
+}
+
+
+#welcome {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#bye {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
